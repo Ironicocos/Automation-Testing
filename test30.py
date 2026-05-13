@@ -4,7 +4,7 @@ def Sumar():
         y = 0
         x = int(input("Ingrese un número: "))
         y = int(input("Ingrese un número: "))
-        print(x + y)
+        return(x + y)
     except ValueError:
         print("Tienes que ingresar un numero válido")
 def Restar():
@@ -13,7 +13,7 @@ def Restar():
         y = 0
         x = int(input("Ingrese un número: "))
         y = int(input("Ingrese un número: "))
-        print(x - y)
+        return(x - y)
     except ValueError:
         print("Tienes que ingresar un numero válido")
 def Dividir():
@@ -22,7 +22,7 @@ def Dividir():
         y = 0
         x = int(input("Ingrese un número: "))
         y = int(input("Ingrese un número: "))
-        print(x / y)
+        return(x / y)
     except ValueError:
         print("Tienes que ingresar un numero válido")
     except ZeroDivisionError:
@@ -33,7 +33,6 @@ def Multiplicar():
         y = 0
         x = int(input("Ingrese un número: "))
         y = int(input("Ingrese un número: "))
-        print(x * y)
+        return (x * y)
     except ValueError:
         print("Tienes que ingresar un numero válido")
-Multiplicar()
